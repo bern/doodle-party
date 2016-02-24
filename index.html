@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<title>Doodle Party</title>
+	</head>
+	<body>
+		<div style="text-align:center;">
+			<h1>Welcome to Doodle Party</h1>
+			<h3>Everyone's invited.</h3>
+		</div>
+		<div style="text-align:center;">
+			<canvas id="myCanvas" width="640" height="480" style="border:1px solid #000000;">
+			</canvas>
+			<div>
+				Color: <input id="color" value="#000000" />
+				<button id="setColor">Set!</button>
+			</div>
+			<div>
+				Current Color: <span id="currentColor">#000000</span>
+			</div>
+		</div>
+		<script src='script.js'></script>
+	</body>
+</html>
